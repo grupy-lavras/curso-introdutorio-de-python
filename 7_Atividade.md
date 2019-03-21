@@ -6,9 +6,7 @@ Escreva um programa que leia o arquivo de texto fornecido, separe o texto em fra
 
 Não é necessário generalizar a solução, apenas atender o exemplo fornecido.
 
-
-
-
+<br>
 
 
 [Próximo capítulo](./8_Estruturas de dados.md)  
