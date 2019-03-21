@@ -170,8 +170,6 @@ Por último são descritos os argumentos e valores retornados.
 
 Após fechar as aspas, deve-se deixar outra em branco. 
 
-
-
 ## Módulos
 
 Além das funções embutidas na linguagem, Python é famosa pela sua vasta biblioteca de *módulos* com as mais diversas aplicações. 
@@ -205,6 +203,27 @@ import meu_modulo
 ```
 
 <br>
+
+## Função main()
+
+Agora que já sabemos como encapsular código usando funções e como criar e importar módulos, precisamos controlar o comportamento dos nosso programas ao serem executados diretamente ou importados. 
+
+Ao contrário de outras linguagens de programação, o uso de uma função `main()` é opcional em python, sendo usada apenas quando precisamos separar o código a ser executado numa chamada direta do restante, como a declaração de funções.
+
+Para isso, basta declararmos a função `main()` com código que deve ser chamado na execução, e incluir a chamada da main em uma condicional conforme o exemplo:
+
+```python
+def minha_funcao():
+    pass
+
+def main():
+	pass
+
+if __name__ == '__main__':
+    main()
+```
+
+Assim, o programa irá chamar a função main() quando executado diretamente, e ignorá-lo quando importado como módulo.
 
 [Atividade](./10_Atividade.md)
 

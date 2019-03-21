@@ -1,8 +1,12 @@
-# Atividade 2: Sequências
+# Atividade 2
 
-*Tempo previsto: 10 minutos*
+*Tempo previsto: 15 minutos*
 
-Escreva um programa que receba do usuário uma frase e imprima uma string com o comprimento de cada palavra, separados por espaços.  
+Escreva um programa que leia o arquivo de texto fornecido, separe o texto em frases, remova a pontuação e converta para minúsculas. Por fim, imprima o resultado.
+
+Não é necessário generalizar a solução, apenas atender o exemplo fornecido.
+
+
 
 
 

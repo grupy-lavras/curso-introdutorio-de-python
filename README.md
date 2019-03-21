@@ -1,6 +1,6 @@
 ![logo_grupy-lavras](https://raw.githubusercontent.com/grupy-lavras/grupy-lavras-logo/master/capa.jpg)
 
-# Curso de introdução a Python
+# Minicurso: Introdução a python
 
 <br>
 
@@ -11,14 +11,10 @@ Com duração aproximada de 3 horas, o curso proporciona um contato inicial com 
 
 ## Público Alvo
 
-Pra quem esse curso foi feito?
-- Pra quem não tem nenhum conhecimento relacionado e quer aprender a programar
-- Pra quem já programou em outra linguagem e quer conhecer Python
-- Pra quem quer se divertir programando (porque Python é divertido!)
-
-Para quem domina os conceitos básicos e quer ir direto pra tópicos mais avançados, 
-uma segunda parte do curso está em preparação. 
-<br>
+Para quem esse curso foi feito?
+- Para quem quer aprender ou rever conceitos básicos de programação
+- Para quem quer conhecer a linguagem Python
+  <br>
 
 ## Índice
 

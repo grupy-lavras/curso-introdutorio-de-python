@@ -200,7 +200,7 @@ Abaixo temos uma lista de alguns dos métodos de strings:
 | .isupper() | Retorna True se a str é maiúscula |
 | .find(sub) | Retorna o número de ocorrências da substring |
 | .count(sub) | Retorna o índice da substring |
-| .replace(old, new, n) | Substitui os termos n vezes |
+| .replace(old, new) | Retorna cópia da string com os termos antigos substituidos pelos novos |
 | .strip(char) | Remove caracteres no início/fim da str (' ' por padrão) |
 | .startswith(sub) | Compara o início da string, retorna True/False |
 | .endswith(sub) | Compara o final da string |
@@ -223,6 +223,7 @@ este é um exemplo de strings multilinha.
 <br>
 
 **Formatação de strings**  
+
 É um recurso que permite criar formatos customizados para strings, além de strings compostas usando variáveis, que são úteis quando seu conteúdo é dinâmico.
 
 Para isso usamos marcadores `{}` e o método `.format()`.
@@ -248,7 +249,52 @@ Daremos exemplos de alguns dos usos comuns, mas um estudo detalhado do assunto e
 
 Quando usamos valores numéricos como parâmetros, eles são automaticamente convertidos em strings.
 
-É importante mencionar também que Python suporta não uma, mas duas sintaxes de formatação, conhecidas como *nova* e *antiga*. A sintaxe nova é preferível e foi introduzida na versão 3, que suporta também a formatação antiga para fins de compatibilidade.
+Na versão 3.6 foi incluída uma nova sintaxe de formatação, conhecida como f-strings. Alguns exemplos de sintaxe das de f-strings:
+
+```python
+# uso de marcadores
+f'O valor é {valor}'
+```
+
+```python
+# formatação numérica
+f'O resultado é {valor:{largura}.{precisao}}'
+```
+
 <br>
+
+# *Bônus:* Arquivos
+
+Arquivos de texto são tratados de forma similar as estruturas já vistas, com a diferença que precisam ser corretamente abertos e fechados. 
+
+**Inicialização**
+
+Um arquivo é aberto com a função `open()`, que pode receber alguns parâmetros adicionais e retorna uma estrutura do tipo arquivo. Por exemplo:
+
+```python
+arquivo = open('nome_do_arquivo.txt')
+# ...
+arquivo.close()
+```
+
+Uma forma alternativa recomendada:
+
+```python
+with open('nome_do_arquivo.txt') as arquivo:
+	# ...
+```
+
+Por padrão, `open()` abre um arquivo de texto para leitura. Parâmetros opcionais não serão cobertos no curso, mas podem ser facilmente verificados na documentação. 
+
+**Métodos**
+
+Alguns dos métodos mais usados são:
+
+| Método | Resultado |
+| ------ | --------- |
+| .read() | Retorna todo o conteúdo do arquivo em uma única string |
+| .readline() | Lê uma linha do arquivo e retorna string |
+| .readlines() | Lê todo o conteúdo do arquivo e retorna lista de strings |
+| .write(str) | Escreve uma string em um arquivo aberto para escrita |
 
 [Atividade](./7_Atividade.md)
