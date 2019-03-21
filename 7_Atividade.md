@@ -4,9 +4,7 @@
 
 Escreva um programa que leia o arquivo de texto fornecido, separe o texto em frases, remova a pontuação e converta para minúsculas. Por fim, imprima o resultado.
 
-Não é necessário generalizar a solução, apenas atender o exemplo fornecido.
-
+Não é necessário generalizar a solução, apenas atender o exemplo fornecido.  
 <br>
 
-
-[Próximo capítulo](./8_Estruturas de dados.md)  
+[Próximo capítulo](./8_Estruturas de dados.md)
